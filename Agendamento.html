@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Todas as meta tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- script para ícones da página -->
+        <script src="https://kit.fontawesome.com/1dbb06025a.js" crossorigin="anonymous"></script>
+        <title>Ciclix Ambiental</title>
+        <link rel="stylesheet" href="agendamento.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <!-- URL de fontes do google -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <form action="pesquisa.php" method="POST" autocomplete="off">
+                <input type="search" name="pesquisa" id="" placeholder="Buscar">
+                <button><i class="fas fa-search"></i></button>
+            </form> -->
+               <a href="index.html"></a> 
+                
+            </header>
+
+        <!-- Nav no estilo menu -->
+        <header class="cabecalho">
+            <!-- <form action="pesquisa.php" method="POST" autocomplete="off">
+                <input type="search" name="pesquisa" id="" placeholder="Buscar">
+                <button><i class="fas fa-search"></i></button>
+            </form> -->
+            <nav class="menu">
+               <a href="index.html"><img src="ciclix png.png" alt="Logo da Ciclix"></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="guia.html">Guia</a></li>
+                    <li><a href="agendamento.html">Agendamento</a></li>
+                    <li><a href="DADOS.html">Dados</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- conteúdo principal da página -->
+        <main class="principal">
+            <!-- informação sobre o conteúdo que se deseja falar/artigo -->
+            <article class="sobre">
+
+
+                
+               <p class="h2">Preencha o formulário de agendamento para a coleta: </p>
+               <img src="coleta.png" class="img">
+
+               <p class="floatingP1">1º PASSO:</p> 
+
+                <div class="form-floating">
+                    <label class="floatingP">Nome completo: </label><br>
+                    <input type="text" class="form-control" id="floatingPassword" placeholder="Digite seu nome completo">
+                    
+                  </div><br>
+
+                  <div class="form-floating">
+                    <label class="floatingP">CPF:</label><br>
+                    <input type="text" class="form-control" id="floatingPassword" placeholder="Digite seu CPF">
+                   
+                  </div><br>
+               
+                <div class="form-floating">
+                    <label class="floatingP">Email:</label><br>
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                    
+                  </div><br>
+                  
+                  <div class="form-floating">
+                    <label class="floatingP">Endereço:</label><br>
+                    <input type="text" class="form-control" id="floatingPassword" placeholder="Digite seu endereço">
+                  </div><br>
+
+                  <div class="form-floating">
+                    <label class="floatingP">CEP:</label><br>
+                    <input type="text" class="form-control" id="floatingPassword" placeholder="Digite o CEP">
+                  </div><br>
+
+                  <div class="form-floating">
+                    <label class="floatingP">Bairro:</label><br>
+                    <input type="text" class="form-control" id="floatingPassword" placeholder="Digite seu Bairro">
+                    
+                  </div><br>
+
+                  <div class="form-floating">
+                    <label class="floatingP">Comprovante de endereço: </label><br>
+                    <p class="floatingP">É necessário tirar foto do seu documento para comprovar sua residência.(Ex.: Conta de água, gás, luz, energia elétrica,etc.) </p>
+                    <input type="file" name="imagem" class="floatingP"><br>
+                   
+                  </div><br>
+                  
+                
+                  
+
+<!-- 
+                    <label class="floatingP">Selecione aqui o tipo de resíduo</label>
+                    <div class="opcao"> -->
+                      
+                      <!-- <select class="form-select" aria-label="Default select example">
+                        
+                    <option selected disable value="">Selecione o tipo de resíduo que será descartado</option>
+                    <option value="1">Papel</option>
+                    <option value="2">Plástico</option>
+                    <option value="3">vidro</option>
+                    <option value="4">Metal</option>
+                  </select> -->
+
+                  <p class="floatingP1">2º PASSO:</p> 
+                  <div class="opcao1">
+                  <label><strong>Selecione o(s) tipo(s) de resíduo(s) que serão descartado(s): </strong></label><br><br>
+                  <input type="checkbox" id="residuo1" name="residuo1" value="PAPEL">
+                  <label for="tecnologia1">PAPEL</label><br>
+                  <input type="checkbox" id="residuo2" name="residuo2" value="PLASTICO">
+                  <label for="tecnologia2">PLÁSTICO</label><br>
+                  <input type="checkbox" id="residuo3" name="residuo3" value="VIDRO">
+                  <label for="tecnologia3">VIDRO</label><br>
+                  <input type="checkbox" id="residuo4" name="residuo4" value="METAL">
+                  <label for="tecnologia4">METAL</label>
+
+                  </div>
+                  <br>
+                  <br>
+                  
+                  
+                  <div class="form-floating">
+                  <label class="floatingP">Descreva: </label>
+                    <textarea class="form-control" placeholder="Descreva a quantidade de resíduo que será descartado e o que são." id="floatingTextarea2" style="height: 100px"></textarea>
+                    <br>
+                    <br>
+                    
+                    
+                    <label class="floatingP">Selecione aqui a data disponível para o seu descarte</label>
+                    <div class="opcao">
+                    
+                    <select class="form-select" aria-label="Default select example">
+                    
+                    <option selected disable value="">Datas disponíveis</option>
+                    <option value="1">15/06</option>
+                    <option value="2">19/06</option>
+                    <option value="3">20/06</option>
+                    <option value="4">24/06</option>
+                    <option value="4">25/06</option>
+                    <option value="4">27/06</option>
+                    <option value="4">29/06</option>
+                    <option value="4">30/06</option>
+                  </select>
+                  </div>
+                  
+                  <br>
+                  <br>
+                  
+                  <button type="submit" class="botao">Concluído</button>
+                   
+                  </div>
+            </article>
+        
+                <!-- <iframe src="https://www.youtube.com/embed/uTfgJXlqH8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            </aside>
+                
+                <div class="paragrafo">
+                   
+                </div>
+            </article>
+        </main>
+        <section class="newsletter">
+            <h3>Newsletter</h3>
+            <p>Receba nossas ofertas e promoções de maneira online no seu e-mail.</p>
+            <form action="validaemail.php" method="post">
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui">
+                <input type="email" name="email" id="email" placeholder="Digite seu email aqui">
+                <button type="submit">Cadastrar</button>
+            </form>
+            <div class="conteudosft">
+
+            </div>
+        </section>
+
+        <footer class="rodape">
+            <div class="textos">
+                <div class="home">
+                    <h2>Home</h2>
+                    <ul>
+                        <li>Início</li>
+                        <li>Cursos</li>
+                        <li>Download</li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="sobreNos">
+                    <h2>Sobre-nós</h2>
+                    <ul>
+                        <li>Informações da empresa</li>
+                        <li>Contato</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+                <div class="suporte">
+                <h2>Suporte</h2>
+                    <ul>
+                        <li>FAQ</li>
+                        <li>Telefones</li>
+                        <li>Chat</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="social-icons">
+                <!-- Todos do fontawesome -->
+                <!-- fa-lg é para aumentar o tamanho do icon -->
+                <a href="#" class="btn-facebook" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a>
+                <a href="#" class="btn-twitter" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+                <a href="#" class="btn-linkedin" target="_blank"><i class="fab fa-linkedin fa-lg"></i> </a>
+                <a href="#" class="btn-instagram" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="#" class="btn-youtube" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
+            </div>
+
+            <button>Contato</button>
+            <p>&copy; Ciclix 2021 - Todos os direitos reservados</p>
+        </footer>
+
+    </body>
+</html>
