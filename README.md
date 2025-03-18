@@ -15,10 +15,7 @@
 <p align="center">
 
     <img src="img/image5.png" alt="Login"">
-    <img src="img/image.png" alt="Home"">
-    <img src="img/image2.png" alt="Footer"">
-    <img src="img/image3.png" alt="Form"">
-    <img src="img/image4.png" alt="Dados"">
+   
     
 </p>
 
