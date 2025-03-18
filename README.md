@@ -12,15 +12,12 @@
 
 <h2 id="layout">🎨 Layout</h2>
 
-
-
     <img src="img/image5.png" alt="Login"">
     <img src="img/image.png" alt="Home"">
     <img src="img/image2.png" alt="Footer"">
     <img src="img/image3.png" alt="Form"">
     <img src="img/image4.png" alt="Dados"">
-    
-
+   
 
 <h2 id="technologies">💻 Technologies</h2>
 <ul>
